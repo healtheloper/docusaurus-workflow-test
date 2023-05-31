@@ -10,6 +10,9 @@ defaults:
     shell: bash
     working-directory: docs
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     name: Doc Deploy to GitHub Pages
