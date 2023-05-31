@@ -78,9 +78,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'primitives/README',
+            docId: 'test-one/README',
             position: 'left',
-            label: 'document',
+            label: 'test-one',
+          },
+          {
+            type: 'doc',
+            docId: 'test-two/README',
+            position: 'left',
+            label: 'test-two',
           },
           {
             href: 'https://github.com/healtheloper/docusaurus-workflow-test',

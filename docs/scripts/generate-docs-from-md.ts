@@ -21,16 +21,12 @@ async function copyMDDocs(outdir: string, exclude: string[]) {
 
       await fse.ensureDir(path.dirname(destination));
       await fse.copy(source, destination);
-    }),
+    })
   );
 }
 
 export async function generateDocsFromMD() {
   return Promise.all([
-    copyMDDocs(OUT_DIR, [
-      '**/playground-react/**',
-      '**/CHANGELOG.md',
-      '**/node_modules/**',
-    ]),
+    copyMDDocs(OUT_DIR, ['**/CHANGELOG.md', '**/node_modules/**']),
   ]);
 }
