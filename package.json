@@ -1,0 +1,8 @@
+{
+  "name": "docusaurus-workflow-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/healtheloper/docusaurus-workflow-test",
+  "author": "healtheloper <58503584+healtheloper@users.noreply.github.com>",
+  "license": "MIT"
+}
